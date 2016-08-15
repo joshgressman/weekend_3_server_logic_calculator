@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <script type="text/javascript" src="/assets/vendors/jquery.min.js"></script>
+    <script type="text/javascript" src="/scripts/clientapp.js"></script>
+      <link rel="stylesheet" href="/styles/bootstrap.css" />
+    <link rel="stylesheet" href="/styles/styles.css" />
+    <title>Calcualte This</title>
+</head>
+
+<body>
+    <h1>Calulator</h1>
+    <div id="container"></div>
+    <form id="calc-form">
+      <label for="number-x">First Number</label>
+      <input type="number" id="number-x" name="x" />
+      <label for="number-y">Second Number</label>
+      <input type="number" id="number-y" name="y" />
+      <input type="radio"  id="add" name="type" value="add" /> Add &nbsp
+      <input type="radio"  id="sub" name="type" value="sub">   Subtract &nbsp
+      <input type="radio"  id="multi" name="type" value="multi">  Mulitply &nbsp
+      <input type="radio"  id="div" name="type" value="div">  Divide &nbsp
+      <br />
+       <input type="submit" class="btn btn-primary" id="submit" value="Calculate">
+    </form>
+    <div id="ans">
+
+    </div>
+    <button id="clear" class="btn btn-warning">Clear</button>
+</body>
+
+</html>
